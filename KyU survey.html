@@ -1,0 +1,95 @@
+<DOCTYPE html>
+<html>
+<head>
+     <title>KyU survey form</title>
+</head>
+<body>
+<h1>Please fill in yor personal information here</h1><br>
+  <form actions="">
+         First name: <input type="text" name="firstname"size="30"><br><br>
+         Middle name: <input type="text" name="firstname"size="30"><br><br>
+         Last name: <input type="text" name="lastname"size="30"><br><br>
+         E-mail: <input type="text" size="30"><br><br>
+         Year of birth: <input type="text" size="10"><br><br>
+         Username: <input type="text" name="user"><br><br>
+         Password: <input type="password" name="password"><br><br>
+         Contact:<input type="Contact" name="Contact"><br><br>
+  </form>
+<h2>Please choose your gender </h2>
+    
+        <input type="radio" name="sex" value="male">Male<br><br>
+        <input type="radio" name="sex" value="female">Female<br><br>
+
+<h3>PLease select your level of education</h3>
+         <select value="Education">
+         <option value="primary">Primary</option>
+         <option value="secondary">Secondary</option>
+         <option value="tertiary">Tertiary</option>
+         <option value="master-degree">Master's Degree</option>
+         <option value="doctorate">Doctorate</option>
+         </select>
+
+<h4>What is your marital status?<h4>
+         <input type="radio" name="Marital status" value="Single">single<br><br>
+         <input type="radio" name="Marital status" value="Married">Married<br><br>
+         <input type="radio" name="Marital status" value="Divorced">Divorced<br><br>
+<h5>What is your occupation?</h5>
+         Occupation: <input type="text"<br>
+ 
+<h6>How many children do you have?</h6>
+         <label for="childeren">Children:</label>
+        <input type="number" id="children" name="children" required><br><br>
+<h7>Please choose what you have here</h7><br>
+        <input type="checkbox" name="vehicle" value="Bike">I have a bike<br><br>
+        <input type="checkbox" name="vehicle" value="Car">I have a car <br><br>
+<h8>Please select kind of car you have</h8>
+        <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        </select><br>
+<h9>Please insert 10 items you own in your here<h9>
+ <label for="owned-items">5. List 10 things you own:</label>
+        <ol>
+            <li><input type="text" name="owned-item-1" required></li>
+            <li><input type="text" name="owned-item-2" required></li>
+            <li><input type="text" name="owned-item-3" required></li>
+            <li><input type="text" name="owned-item-4" required></li>
+            <li><input type="text" name="owned-item-5" required></li>
+            <li><input type="text" name="owned-item-6" required></li>
+            <li><input type="text" name="owned-item-7" required></li>
+            <li><input type="text" name="owned-item-8" required></li>
+            <li><input type="text" name="owned-item-9" required></li>
+            <li><input type="text" name="owned-item-10" required></li>
+        </ol><br>
+<h10>Which of these counties have you visited?</10>
+
+        <select id="county" name="county" required>
+            <option value="nairobi">Murang'a</option>
+            <option value="mombasa">Kirinyaga</option>
+            <option value="kisumu">Nyeri</option>
+            <option value="nakuru">Embu</option>
+            <option value="eldoret">Kiambu</option>
+        </select><br><br>
+<h11>Have you ever heard of Kirinyaga University(KyU)?<h11><br>
+           <select name="Kyu">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="I don't know if KyU exists">I don't know if KyU exists</option>
+        <option value="I have ever heard about KyU but I don't know about it">I have ever heard about KyU but I don't know about it</option>
+        </select><br>
+<h12>Please write what you know about Kirinyaga University<h12>
+        
+<h12>Please write what you know about Kirinyaga University<h12><br>
+      <input type="text" name="what you know about Kirinyaga University?"size="30"><br><br>
+  
+<label for="comments">Additional Comments or Suggestions:</label><br><br><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br><br>
+<!-- Code by John Njoroge Gitau -->
+
+<p><input type="submit" value="Send"> <input type="reset" value="Reset"></p>
+
+</form>
+</body>
+<html>
